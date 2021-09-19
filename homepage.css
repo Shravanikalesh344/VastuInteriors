@@ -1,0 +1,17 @@
+.header {
+  padding: 200px;
+  text-align:center;
+  background-image:url('h12.jpg');
+  height:500px;
+  color:black;
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+}
+.footer {
+    background-color:blueviolet;
+  }
+/*img {
+      border-radius: 50px;
+
+}*/
+

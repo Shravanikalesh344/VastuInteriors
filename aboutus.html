@@ -1,0 +1,367 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aboutus.css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
+        <b style="margin-right:300px;">Vastu Interiors</b>
+      </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="homepage.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+       
+    </nav>
+      
+    
+   
+      
+<style>
+.d-inline-bloc{
+    margin-top: 0px;
+}
+.about{
+    margin-left: 600px;
+    margin-top: 40px;
+    
+   
+}
+
+  html {
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  background-color: violet;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+.title {
+  color: grey;
+  text-align: center;
+
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: blanchedalmond;
+  }
+}
+.interior{
+    width: 25%;
+    float: left;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.office{
+    width: 25%;
+    float: left;
+    margin-left:52px;
+
+}
+.home{
+    width: 25%;
+    float:left;
+    margin-left: 52px;
+}
+.drawing{
+    width: 10%;
+    float: left;
+  }
+  .client{
+   height:30px;
+   margin-top:500px;
+   width: 50px;
+}
+  * {box-sizing: border-box}
+body {
+  font-family: Verdana, sans-serif; 
+ 
+  }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  margin-top: 500px;
+  background-color: darkkhaki;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+  
+
+            
+ 
+     
+         </style>
+          <div class="header">
+            <h1 style="color: black; font-family: 'Times New Roman', Times, serif; font-size: 50px;">ABOUT US</h1>
+            </div>
+         <body>
+         <h2 style="text-align:center; margin-top: 30px;"><b>Our Designer</b></h2>
+<div class="about">
+<div class="row">
+  <div class="column">
+  <center><div class="card" ></center>
+      <center><img src="vasu.jpg" alt="Jane" style="width:40%"></center>
+    <center><div class="container" ></center>
+    <h2><center>Vasanti Yawale</center></h2>
+  <p class="title"><center><b>CEO & Founder</b></center></p>
+  <p class="title"><center><b>VASTU INTERIORS</b></center></p>
+
+<address>
+<p><button class="button"><a href="mailto:yawalevasanti@gmail.com">Contact</button></p></a>
+ </div>
+</addess>
+</div>
+</div>
+
+<span><p style="color: coral; font-size: 25px;">Our Specilization</p></span>
+<h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif">WHAT WE DO</h2>
+<div class="interior">
+
+  <img src="i1.png" width="100px" height="100px">
+  <p style="font-family:'Times New Roman', Times, serif; font-size: 20px; margin-top: 20px;">INTERIOR DESIGN</p>
+  <p>As you might expect of a company </br> that began as a high-end interiors </br>contractor, we pay strict attention.</p>
+</div>
+
+<div class="office">
+  <img src="i2.png" width="100px" height="100px">
+  <p style="font-family:'Times New Roman', Times, serif; font-size: 20px; margin-top: 20px;">OFFICE DESIGN</p>  
+  <p>Our commitment to exceptional</br> quality has never wavered. To day</br> ranks as one of the most highly-</br>regarded construction</p>
+</div>
+ <div class="home">
+  <img src="i3.png" width="100px" height="100px">
+  <p style="font-family:'Times New Roman', Times, serif; font-size: 20px; margin-top: 20px;">HOME DESIGN</p>  
+  <p>Interdisciplinary architectural</br> studio with cultural, residential and</br> commercial projects built</br> worldwide</p>
+</div>
+
+<div class="drawing">
+  <img src="i4.png" width="100px" height="100px">
+  <p style="font-family:'Times New Roman', Times, serif; font-size: 20px; margin-top: 20px;">DESIGN DRAWING</p> 
+  <p>Creating architectural and creative solutions to help people realize their vision and make them a reality.</p>  
+</div>
+</br>
+</hr>
+
+<div class="clients">
+<div class="slideshow-container">
+  <div class="mySlides">
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 40px;">WHAT OUR CLIENTS SAY</p>
+    <q>“I wanted my house to feel like a Bali bungalow. We wanted to keep it light and feel like we’re on vacation but we wanted it to be homey. It’s like our cozy little getaway. I love it.”</q>
+    <p class="author">- Kusam Tripathi</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 40px;">WHAT OUR CLIENTS SAY</p>
+    <q>“It was a wonderful experience. Jessica, my designer, asked me questions that I would never ask myself. It's such an inspiring and enjoyable space that I can't stay away from it. It really has showed me what good design can do for a space.”</q>
+    <p class="author">- Joseph Ali</p>
+  </div>
+  
+  <div class="mySlides">
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 40px;">WHAT OUR CLIENTS SAY</p>
+    <q>“It’s the easiest process! And it’s not only about convenience. It’s done on a very personal level, even though you don’t actually meet your designer face-to-face. I’m a HUGE fan of this service.”</q>
+    <p class="author">-Elona Ride </p>
+  </div>
+
+  <div class="mySlides">
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 40px;">WHAT OUR CLIENTS SAY</p>
+    <q>Amazing
+      Review by Courtney on 6 Aug 2021review stating AmazingMy designer hit the mark across the board. Highly recommend!</q>
+    <p class="author">-Rohan Birajdar</p>
+  </div>
+
+  <div class="mySlides">
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 40px;">WHAT OUR CLIENTS SAY</p>
+    <q>We have absolutely LOVED using Havenly for both our living and dining room. Our decorator, Fendy Castillo, crafted the most amazing layout that I never would’ve been able to achieve on my own. She brought my vision to life!</q>
+    <p class="author">-Nilini Chaudhari </p>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  </div>  
+
+
+</body>
+</html>
